@@ -24,6 +24,9 @@ Ext.application({
 
         Sencha.container = Ext.create('Ext.TabPanel', {
             fullscreen: true,
+            layout: {
+                animation: 'fade'
+            },
             items: [red, amber, green]
         });
 
