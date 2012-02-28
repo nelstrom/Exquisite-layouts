@@ -9,10 +9,16 @@ Ext.application({
             html: "Red"
         };
 
+        var amber = {
+            style: "background-color: #FFBF00; color:white;",
+            title: "Amber",
+            html: "Amber"
+        };
+
         Ext.create('Ext.Container', {
             fullscreen: true,
             layout: 'fit',
-            items: [red]
+            items: [red, amber]
         });
 
     }
