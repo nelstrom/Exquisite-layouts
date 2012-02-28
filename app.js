@@ -15,10 +15,16 @@ Ext.application({
             html: "Amber"
         };
 
-        Ext.create('Ext.Container', {
+        var green = {
+            style: "background-color: #3B7E00; color:white;",
+            title: "Green",
+            html: "Green"
+        };
+
+        Sencha.container = Ext.create('Ext.Container', {
             fullscreen: true,
-            layout: 'fit',
-            items: [red, amber]
+            layout: 'card',
+            items: [red, amber, green]
         });
 
     }
