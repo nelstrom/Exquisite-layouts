@@ -1,5 +1,6 @@
 Ext.application({
     name: 'Sencha',
+    requires: ['Ext.TabPanel'],
 
     launch: function() {
 
@@ -21,9 +22,8 @@ Ext.application({
             html: "Green"
         };
 
-        Sencha.container = Ext.create('Ext.Container', {
+        Sencha.container = Ext.create('Ext.TabPanel', {
             fullscreen: true,
-            layout: 'card',
             items: [red, amber, green]
         });
 
