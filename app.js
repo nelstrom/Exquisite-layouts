@@ -27,6 +27,7 @@ Ext.application({
                 type: 'vbox',
                 pack: 'center'
             },
+            defaults: { flex: 1 },
             items: [red, amber, green]
         });
 
