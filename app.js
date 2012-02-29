@@ -4,30 +4,30 @@ Ext.application({
 
     launch: function() {
 
-        var red = {
+        var heads = {
             xtype: 'carousel',
             items: [
-                {style: "background-color: #D55B5B;"},
-                {style: "background-color: #B22222;"},
-                {style: "background-color: #7C0505;"}
+                {cls: "head-1 head"},
+                {cls: "head-2 head"},
+                {cls: "head-3 head"}
             ]
         };
 
-        var amber = {
+        var torsos = {
             xtype: 'carousel',
             items: [
-                {style: "background-color: #FFDD00;"},
-                {style: "background-color: #FFBF00;"},
-                {style: "background-color: #FF8F00;"}
+                {cls: "torso-1 torso"},
+                {cls: "torso-2 torso"},
+                {cls: "torso-3 torso"}
             ]
         };
 
-        var green = {
+        var legs = {
             xtype: 'carousel',
             items: [
-                {style: "background-color: #7BB300;"},
-                {style: "background-color: #3B7E00;"},
-                {style: "background-color: #0E3E00;"}
+                {cls: "legs-1 legs"},
+                {cls: "legs-2 legs"},
+                {cls: "legs-3 legs"}
             ]
         };
 
@@ -35,7 +35,7 @@ Ext.application({
             fullscreen: true,
             layout: 'vbox',
             defaults: { flex: 1 },
-            items: [red, amber, green]
+            items: [heads, torsos, legs]
         });
 
     }
