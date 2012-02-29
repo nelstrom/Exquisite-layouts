@@ -2,17 +2,36 @@
 
 // You may remove any of the following modules that you
 // do not use in order to create a smaller css file.
-@include sencha-panel;
-@include sencha-buttons;
-@include sencha-sheet;
-@include sencha-picker;
-@include sencha-tabs;
-@include sencha-toolbar;
-@include sencha-toolbar-forms;
-@include sencha-indexbar;
-@include sencha-list;
+/*@include sencha-panel;*/
+/*@include sencha-buttons;*/
+/*@include sencha-sheet;*/
+/*@include sencha-picker;*/
+/*@include sencha-tabs;*/
+/*@include sencha-toolbar;*/
+/*@include sencha-toolbar-forms;*/
+/*@include sencha-indexbar;*/
+/*@include sencha-list;*/
 @include sencha-layout;
 @include sencha-carousel;
-@include sencha-form;
-@include sencha-msgbox;
-@include sencha-loading-spinner;
+/*@include sencha-form;*/
+/*@include sencha-msgbox;*/
+/*@include sencha-loading-spinner;*/
+
+.head, .torso, .legs {
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 0;
+}
+
+.head-1{ background-image: url('/images/1-exquisite-heads.png'); }
+.head-2{ background-image: url('/images/2-exquisite-heads.png'); }
+.head-3{ background-image: url('/images/3-exquisite-heads.png'); }
+
+.torso-1{ background-image: url('/images/1-exquisite-torsos.png'); }
+.torso-2{ background-image: url('/images/2-exquisite-torsos.png'); }
+.torso-3{ background-image: url('/images/3-exquisite-torsos.png'); }
+
+.legs-1{ background-image: url('/images/1-exquisite-legs.png'); }
+.legs-2{ background-image: url('/images/2-exquisite-legs.png'); }
+.legs-3{ background-image: url('/images/3-exquisite-legs.png'); }
