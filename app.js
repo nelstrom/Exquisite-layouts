@@ -24,7 +24,7 @@ Ext.application({
         Sencha.container = Ext.create('Ext.Container', {
             fullscreen: true,
             layout: {
-                type: 'vbox',
+                type: 'hbox',
                 pack: 'center'
             },
             defaults: { flex: 1 },
