@@ -1,6 +1,5 @@
 Ext.application({
     name: 'Sencha',
-    requires: ['Ext.Carousel'],
 
     launch: function() {
 
@@ -22,9 +21,9 @@ Ext.application({
             html: "Green"
         };
 
-        Sencha.container = Ext.create('Ext.Carousel', {
+        Sencha.container = Ext.create('Ext.Container', {
             fullscreen: true,
-            direction: 'vertical',
+            layout: 'vbox',
             items: [red, amber, green]
         });
 
