@@ -1,6 +1,6 @@
 Ext.application({
     name: 'Sencha',
-    requires: ['Ext.TabPanel'],
+    requires: ['Ext.Carousel'],
 
     launch: function() {
 
@@ -22,11 +22,8 @@ Ext.application({
             html: "Green"
         };
 
-        Sencha.container = Ext.create('Ext.TabPanel', {
+        Sencha.container = Ext.create('Ext.Carousel', {
             fullscreen: true,
-            layout: {
-                animation: {type: 'fade', duration: 500}
-            },
             items: [red, amber, green]
         });
 
