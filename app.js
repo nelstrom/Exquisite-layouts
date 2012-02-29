@@ -31,11 +31,15 @@ Ext.application({
             ]
         };
 
+        var credits = {
+            html: 'Illustrations by <a href="http://www.veryworrying.com/">Laurie Pink</a>'
+        };
+
         Sencha.container = Ext.create('Ext.Container', {
             fullscreen: true,
             layout: 'vbox',
             defaults: { flex: 1 },
-            items: [heads, torsos, legs]
+            items: [heads, torsos, legs, credits]
         });
 
     }
