@@ -24,6 +24,7 @@ Ext.application({
 
         Sencha.container = Ext.create('Ext.Carousel', {
             fullscreen: true,
+            direction: 'vertical',
             items: [red, amber, green]
         });
 
