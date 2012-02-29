@@ -32,6 +32,7 @@ Ext.application({
         };
 
         var credits = {
+            docked: 'bottom',
             html: 'Illustrations by <a href="http://www.veryworrying.com/">Laurie Pink</a>'
         };
 
