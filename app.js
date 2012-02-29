@@ -23,7 +23,10 @@ Ext.application({
 
         Sencha.container = Ext.create('Ext.Container', {
             fullscreen: true,
-            layout: 'vbox',
+            layout: {
+                type: 'vbox',
+                pack: 'center'
+            },
             items: [red, amber, green]
         });
 
